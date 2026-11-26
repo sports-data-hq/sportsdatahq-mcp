@@ -1,0 +1,20 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.noahowsh/sportsdatahq",
+  "title": "SportsDataHQ",
+  "description": "One key for nine sports: NHL, NFL, NBA, MLB, soccer, tennis, golf, UFC and cricket stats, play-by-play, odds and props.",
+  "version": "1.0.0",
+  "license": "MIT",
+  "repository": { "url": "https://github.com/sports-data-hq/sportsdatahq-mcp", "source": "github" },
+  "icons": [ { "src": "https://sportsdatahq.com/assets/logo.png", "mimeType": "image/png", "sizes": ["512x512"] } ],
+  "homepage": "https://sportsdatahq.com/docs",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.sportsdatahq.com/mcp",
+      "headers": [
+        { "name": "x-api-key", "description": "Your SportsDataHQ API key. Get a free key (1,000 credits every month) at app.sportsdatahq.com/signup", "isRequired": true, "isSecret": true }
+      ]
+    }
+  ]
+}
