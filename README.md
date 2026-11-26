@@ -1,5 +1,7 @@
 # SportsDataHQ MCP server
 
+[![SportsDataHQ MCP connector](https://glama.ai/mcp/connectors/io.github.noahowsh/sportsdatahq/badges/score.svg)](https://glama.ai/mcp/connectors/io.github.noahowsh/sportsdatahq)
+
 One API key for nine sports. Stats, play-by-play, sportsbook odds and player props for the NHL, NFL, NBA, MLB, 17 soccer leagues, ATP and WTA tennis, five golf tours, the UFC and cricket, as a hosted MCP server for Claude, ChatGPT, Cursor or any MCP client, and a REST API for your code.
 
 **Server:** `https://mcp.sportsdatahq.com/mcp`. One connector covers every sport: it finds the right tool for a question and runs it. For one sport's tools directly, add the sport to the path, for example `https://mcp.sportsdatahq.com/mcp/nba`.
